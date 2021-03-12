@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+table{
+    border-spacing: 0;
+}
+td{
+    padding: 0;
+}
+img{
+    border: 0;
+}
+.wrapper{
+    width: 100%;
+    table-layout: fixed;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+    text-align: center;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    color: #000028;
+}
+.column p{
+    color: #000028;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    height: 42px;
+    letter-spacing: -0.6px;
+    line-height: 33px;
+    padding-top: 15px; 
+}
+.column span{
+    color: #f6ac91;
+    font-weight: 700;
+}
+.two-columns{ /*<!-- 5 in html-->*/
+    text-align: center;
+    font-size: 0;
+    padding: 67px 0;
+    color: #8c8c9e;
+    padding-top: 40px;
+}
+.two-columns .column{
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.two-columns .padding{
+    padding: -20px;
+}
+.two-columns .content{
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+}
+.two-columns .content p{
+    color: #8c8c9e;
+    font-size: 16px; 
+    font-weight: bolder;
+    line-height: 35px;
+}
+.two-columns .content span{
+    color: #413f60;
+    font-size: 22px;
+    line-height: 55px;
+    text-align: left;
+    font-weight: bolder;
+    letter-spacing: auto;
+}
+.column a{ /*<!-- 7 in html-->*/
+    color: #000028;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    height: 42px;
+    letter-spacing: -0.6px;
+    line-height: 33px;
+    padding-top: 15px; 
+}
+.column button{ /*<!-- 7 in html-->*/
+    background: rgb(0, 0, 40);
+    border-radius: 6px;
+    height: 56px;
+    width: 161px;
+    color: #fff;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    text-align: center;
+    cursor: pointer;
+}
+.column button:hover{ /*<!-- 7 in html-->*/
+    color: #f6ac91;
+}
+.copyright h4{ /*<!--footer copyright in html-->*/
+    color: rgb(162, 162, 162);
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    height: 50px;
+    letter-spacing: -0.3px;
+    line-height: 25px;
+    text-align: center !important;
+    width: 520px;
+}
+.copyright h4 a{ /*<!--footer copyright in html-->*/
+    text-decoration: none;
+    color: rgb(162, 162, 162);
+}
